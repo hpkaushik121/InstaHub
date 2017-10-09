@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="600dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/side_nav_bar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_marginLeft="1dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Android Studio"
+        android:id="@+id/username9"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/username9"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Edit Profile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:drawableRight="@drawable/ic_menu_manage"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView6" />
+
+
+</RelativeLayout>
+</ScrollView>

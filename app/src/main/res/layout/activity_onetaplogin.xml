@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_onetaplogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anitesh.photocon.onetaplogin">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/select"
+        android:id="@+id/imageView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#ffffff"
+        android:layout_marginBottom="102dp"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Photocone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:textColor="#000000"
+        android:id="@+id/textView9"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/button10"
+        android:layout_marginBottom="157dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="click to login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:textColor="#151db7"
+        android:textAllCaps="false"
+        android:background="#ffffff"
+        android:layout_marginBottom="27dp"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

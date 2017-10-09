@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.97"
+        android:layout_above="@+id/buttonUpload" />
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

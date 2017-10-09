@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_biodata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anitesh.photocon.biodata"
+    android:background="#ffffff">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/email22"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/email22"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/username18"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/password19"
+        android:layout_below="@+id/username18"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:text="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Select Course"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_height="380dp"
+        android:id="@+id/radioGroup2"
+        android:layout_width="200dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3">
+
+        <RadioButton
+            android:text="BBA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio1"
+            android:layout_weight="1"
+
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="B.ARCH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio2"
+            android:layout_weight="1"
+
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="B.tech First Year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio3"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="Chemical Engineering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio4"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="Electronics and Communication(ECE)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio5"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="Electrical andElectronics(EEE)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio6"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="Machenical and Automation(MAE)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio7"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="Computer Science(CSE)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio8"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:checked="false" />
+
+        <RadioButton
+            android:text="Civil(CE)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio9"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="information Technology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio11"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <RadioButton
+            android:text="Research and Papers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bradio10"
+            android:layout_weight="1"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/password19"
+        android:layout_alignStart="@+id/password19"
+        android:layout_marginStart="17dp"
+        android:id="@+id/pnumber26"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/pnumber26"
+        android:layout_alignStart="@+id/pnumber26"
+        android:layout_marginTop="12dp"
+        android:id="@+id/pnumber21"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pnumber21"
+        android:layout_alignStart="@+id/pnumber21"
+        android:layout_marginTop="18dp"
+        android:id="@+id/year1"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anitesh.photocon">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/photocone"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name=".welcome"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signup"
+            android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BARCH" />
+        <activity android:name=".chemical" />
+        <activity android:name=".ECE" />
+        <activity android:name=".EEE" />
+        <activity android:name=".MAE" />
+        <activity android:name=".CSE" />
+        <activity android:name=".CE" />
+        <activity android:name=".research" />
+        <activity android:name=".IT" />
+        <activity android:name=".biodata" />
+        <activity android:name=".BBA" />
+        <activity android:name=".btechfirst" />
+        <activity android:name=".birthday" />
+        <activity
+            android:name=".fffff"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        />
+        <activity android:name=".login" />
+        <activity
+            android:name=".pdfupload"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".pdfuplaod1"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".onetaplogin"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".FullImageAcitivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".search" />
+        <activity android:name=".optionmenu" />
+        <activity android:name=".hi" />
+        <activity android:name=".adapter2" />
+        <activity
+            android:name=".floataction"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".adapter3" />
+        <activity android:name=".otherprofile" />
+        <activity
+            android:name=".image2"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".editprofile" />
+        <activity android:name=".chat" />
+        <activity android:name=".chatadapter" />
+        <activity android:name=".chatadapter2" />
+        <activity android:name=".chat2"></activity>
+    </application>
+
+</manifest>
